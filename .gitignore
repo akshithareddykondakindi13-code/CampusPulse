@@ -1,3 +1,60 @@
-node_modules
-dist
+
+# Frontend dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+target/
+
+# Environment files and secrets
 .env
+.env.*
+!.env.example
+application-local.properties
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Java / Maven / STS
+.mvn/wrapper/maven-wrapper.jar
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+HELP.md
+
+# IDE files
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+# Frontend dependencies and generated files
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+.vite/
+
+# Backend build output
+target/
